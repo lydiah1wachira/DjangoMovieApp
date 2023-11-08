@@ -16,6 +16,9 @@ class TimestampedModel(models.Model):
         abstract = True
         
 class Movie(TimestampedModel):
+    '''
+    A class to help create instances of a movie object
+    '''
     title = models.CharField(max_length=140)
     synopsis = models.TextField()
     poster = models.ImageField(upload_to="posters")
