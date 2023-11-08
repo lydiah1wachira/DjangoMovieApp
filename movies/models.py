@@ -1,5 +1,5 @@
 from django.db import models
-from users.models import User
+from djangomovies.users.models import User
 from django.utils.text import slugify
 
 
